@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+CV-CBI-MINING*/
+datasets/
+runs/
+*.pt
