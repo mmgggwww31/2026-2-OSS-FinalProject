@@ -1,0 +1,11 @@
+(pip freeze > requirements.txt)
+
+카메라로 실시간 안전 장비 유무 확인
+
+stream.py - 모델 없이 만들어 본 뼈대 코드
+
+dummy.py - 모델이 만들어지기 전까지 실험해보려 만든 데이터
+
+pretrain.py - YOLO 사용
+
+interactive.py - 경고 상황 직접 컨트롤
