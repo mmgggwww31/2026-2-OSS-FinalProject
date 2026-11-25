@@ -6,7 +6,7 @@ import csv
 import urllib.request
 import cv2
 from ultralytics import YOLO
-from stream import RealtimeStreamer
+from stream.stream import RealtimeStreamer
 
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
@@ -160,7 +160,7 @@ class MainWindow(QMainWindow):
         self.is_alert_active = None
         self.detection_thread = None
         self.location_thread = None
-        self.model_path = "yolov8n.pt"
+        self.model_path = os.path.join("models", "helmet_yolo26_pt.pt")
         self.current_location_name = "위치 조회 중..."
 
         # 확대 캡처 저장 폴더 생성

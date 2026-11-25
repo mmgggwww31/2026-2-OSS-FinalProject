@@ -1,2 +1,4 @@
 PySide6
 opencv-python
+ultralytics
+numpy 2.0.0 미만
